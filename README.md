@@ -1,10 +1,11 @@
 # PubSub
-A lightweight es6 PubSub class.
+A lightweight es6 PubSub class. (Singleton module version)
+
+forked from devinle/PubSub
 
 ## Usage
-`import {PubSub} from './PubSub'; // Import the PubSub class`
+`import PS from './PubSub.js'; // Import the PubSub singleton`
 
-`const PS = new PubSub(); // Create a PubSub instance`
 
 `PS.on('event', callback); // Create a new event with a custom callback`
 
