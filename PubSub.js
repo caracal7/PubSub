@@ -7,7 +7,7 @@ export class PubSub {
 	 * @constructor
 	 */
 	constructor() {
-		this.actions = [];
+		this.actions = {};
 	}
 
 	/**
