@@ -1,7 +1,7 @@
 'use strict';
 
 /** PubSub class. */
-export class PubSub {
+class PubSub {
 	/**
 	 * PubSub initialization.
 	 * @constructor
@@ -54,3 +54,5 @@ export class PubSub {
 		}
 	}
 }
+
+export default new PubSub();
